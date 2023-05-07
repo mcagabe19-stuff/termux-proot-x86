@@ -13,6 +13,7 @@ apt install git qemu-user-x86-64 proot-distro -y && git clone https://github.com
 ```
 ## BUGS
 * Apt not working in ubuntu
+* openSUSE broken little bit
 ## TODO
 nothing rn
 ## NeoFetch Infos
