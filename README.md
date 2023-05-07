@@ -10,4 +10,4 @@ apt update && apt install x11-repo git wget -y && git clone https://github.com/m
 ## BUGS
 * Apt not working in ubuntu
 ## TODO
-* Add more distros
+nothing rn
