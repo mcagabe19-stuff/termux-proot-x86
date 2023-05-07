@@ -1,1 +1,1 @@
-yes | apt upgrade && apt install qemu-user-x86-64 proot-distro -y && rm $PREFIX/etc/proot-distro/* && mv ./distro/* $PREFIX/etc/proot-distro && rmdir ./distro && clear && echo "Now run proot-distro list and for install do proot-distro install (distro)!"
+apt update && yes | apt upgrade && apt install qemu-user-x86-64 proot-distro -y && rm $PREFIX/etc/proot-distro/* && mv ./distro/* $PREFIX/etc/proot-distro && rmdir ./distro && clear && echo "Now run proot-distro list and for install do proot-distro install (distro)!"
