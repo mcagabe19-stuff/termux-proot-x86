@@ -7,4 +7,4 @@ apt update && apt install x11-repo git wget -y && git clone https://github.com/m
 ```
 ## TODO
 * Add more distros
-* Ubuntu 22.04 apt fix
+* Ubuntu apt fix
