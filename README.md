@@ -19,7 +19,7 @@ apt install git qemu-user-x86-64 proot-distro -y && git clone https://github.com
 * Apt not working in ubuntu
 * openSUSE broken little bit
 ## TODO
-* Add i386 distros
+nothing rn
 ## NeoFetch Infos
 * Alpine Linux
 ![Alpine Info](https://github.com/mcagabe19/linux-x86_64-and-i386-in-termux/raw/main/screenshots/alpine.jpg)
