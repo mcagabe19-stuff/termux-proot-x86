@@ -1,5 +1,5 @@
 ### WIP
-# PRoot Distro X86_64
+# Linux X86_64 In Termux
 Getting x86_64 linux worked in Termux!! (via qemu-x86_64 and slow performance in low end devices)
 
 NOTE: SOME DISTROS CAN BE BROKEN IDK HOW TO FIX REPORT ISSUE AT [HERE](https://github.com/termux/proot-distro/issues) (ig) but if smth happens in my codes report issue here you are free to do
