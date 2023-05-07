@@ -8,6 +8,6 @@ NOTE: SOME DISTROS CAN BE BROKEN IDK HOW TO FIX REPORT ISSUE AT [HERE](https://g
 apt update && apt install x11-repo git wget -y && git clone https://github.com/mcagabe19/linux-x86_64-in-termux && cd linux-x86_64-in-termux && bash ./runme.sh
 ```
 ## BUGS
-* Apt not working in ubuntn
+* Apt not working in ubuntu
 ## TODO
 * Add more distros
