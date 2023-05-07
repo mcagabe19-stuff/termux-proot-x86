@@ -15,3 +15,18 @@ apt install git qemu-user-x86-64 proot-distro -y && git clone https://github.com
 * Apt not working in ubuntu
 ## TODO
 nothing rn
+## NeoFetch Infos
+* Alpine Linux
+![Alpine Info](https://github.com/mcagabe19/linux-x86_64-in-termux/raw/main/screenshots/alpine.jpg)
+* Debian
+![Debian Info](https://github.com/mcagabe19/linux-x86_64-in-termux/raw/main/screenshots/debian.jpg)
+* Fedora
+![Fedora Info](https://github.com/mcagabe19/linux-x86_64-in-termux/raw/main/screenshots/fedora.jpg)
+* OpenSUSE
+![OpenSUSE Info](https://github.com/mcagabe19/linux-x86_64-in-termux/raw/main/screenshots/opensuse.jpg)
+* Pardus
+![Pardus Info](https://github.com/mcagabe19/linux-x86_64-in-termux/raw/main/screenshots/pardus.jpg)
+* Ubuntu
+![Ubuntu Info](https://github.com/mcagabe19/linux-x86_64-in-termux/raw/main/screenshots/ubuntu.jpg)
+* Void Linux
+![Void Linux Info](https://github.com/mcagabe19/linux-x86_64-in-termux/raw/main/screenshots/void.jpg)
