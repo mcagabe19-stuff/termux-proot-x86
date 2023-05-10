@@ -16,7 +16,7 @@ apt install git qemu-user-i386 proot-distro -y && git clone https://github.com/m
 apt install git qemu-user-x86-64 proot-distro -y && git clone https://github.com/mcagabe19/linux-x86_64-and-i386-in-termux && cd linux-x86_64-and-i386-in-termux && bash ./movedistrosx86_64.sh
 ```
 ## BUGS
-* Apt not working in ubuntu
+~~* Apt not working in ubuntu~~ https://github.com/termux/proot-distro/issues/299#issuecomment-1540018342
 * openSUSE broken little bit
 ## TODO
 nothing rn
