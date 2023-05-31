@@ -1,4 +1,3 @@
-### WIP
 # Linux X86_64 and I386 In Termux
 Getting x86_64 and i386 linux worked in Termux!! (via qemu-user-(x86_64, i386) and slow performance in most devices)
 
