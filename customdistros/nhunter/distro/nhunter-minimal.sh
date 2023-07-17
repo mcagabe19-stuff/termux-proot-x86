@@ -1,0 +1,11 @@
+DISTRO_NAME="Nethunter Minimal"
+DISTRO_COMMENT="Kali Linux Minimal"
+
+TARBALL_URL['aarch64']="https://kali.download/nethunter-images/kali-2023.2/rootfs/kalifs-arm64-minimal.tar.xz"
+TARBALL_SHA256['aarch64']="fdff4675c0c68884096137c489ba73413d1d4614777bcc778d12683a901b3533"
+TARBALL_URL['arm']="https://kali.download/nethunter-images/kali-2023.2/rootfs/kalifs-armhf-minimal.tar.xz"
+TARBALL_SHA256['arm']="ba85854e28a5a7f64a4032b76e8a2e3811715d31162e464cbe2fbce8ad83ea43"
+TARBALL_URL['i686']="https://kali.download/nethunter-images/kali-2023.2/rootfs/kalifs-i386-minimal.tar.xz"
+TARBALL_SHA256['i686']="0dd4b95635b601b9516c29bee016363dd5f378f9abb104736f93f76c82c3d8b6"
+TARBALL_URL['x86_64']="https://kali.download/nethunter-images/kali-2023.2/rootfs/kalifs-amd64-minimal.tar.xz"
+TARBALL_SHA256['x86_64']="b7cfeccdcbf7a2844245405ecc680432237d3b0da49ee35eab0f3ce9fab645a1"
