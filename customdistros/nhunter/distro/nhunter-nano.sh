@@ -1,5 +1,5 @@
 DISTRO_NAME="Nethunter Nano"
-DISTRO_COMMENT="Kali Linux Nano (aarch64 and arm only)"
+DISTRO_COMMENT="Rolling Release (2023.4). (AArch64 and ARM only.)"
 
 TARBALL_URL['aarch64']="https://kali.download/nethunter-images/kali-2023.4/rootfs/kalifs-arm64-nano.tar.xz"
 TARBALL_SHA256['aarch64']="44e70a16ddf3e94d5a27e209c8d643c556ec674d556fe8dc33fbd63bed220d71"
