@@ -1,5 +1,5 @@
 # Termux PRoot x86
-Getting x86_64 and i386 PRoot Env working in Termux with proot-distro and qemu-user-(x86_64, i386)
+Getting x86_64 and i686 PRoot Env working in Termux with proot-distro and qemu-user-(x86_64, i386)
 
 **NOTE: SLOW PERFORMANCE IN EVERY DEVICE**
 
@@ -12,10 +12,10 @@ Getting x86_64 and i386 PRoot Env working in Termux with proot-distro and qemu-u
 apt update && yes | apt upgrade
 ```
 
-2. (i386/x86) Installing
+2. (i686/x86) Installing
 
 ```bash
-apt install git qemu-user-i386 proot-distro -y && git clone https://github.com/mcagabe19-stuff/termux-proot-x86 && cd termux-proot-x86 && bash ./movedistrosi386.sh
+apt install git qemu-user-i386 proot-distro -y && git clone https://github.com/mcagabe19-stuff/termux-proot-x86 && cd termux-proot-x86 && bash ./movedistrosi686.sh
 ```
 3. (amd64/x86_64) Installing
 
@@ -29,6 +29,7 @@ apt install git qemu-user-x86-64 proot-distro -y && git clone https://github.com
 
 ## BUGS
 * openSUSE broken little bit
+* openKylin doesn't start on some devices
 
 ## TODO
-* Update distro's to latest and test them
+* Test distro's fully

@@ -9,3 +9,8 @@ TARBALL_URL['i686']="https://kali.download/nethunter-images/kali-2023.4/rootfs/k
 TARBALL_SHA256['i686']="ce940e3977dbc4da1ce4f24123e8f59a11b1fdab4b5fe48b1c857ed43d905f91"
 TARBALL_URL['x86_64']="https://kali.download/nethunter-images/kali-2023.4/rootfs/kalifs-amd64-minimal.tar.xz"
 TARBALL_SHA256['x86_64']="06dcc3e8c152ae9c28059b8472d947bf514ac14cd259930c42d33b9b5c1f511c"
+
+distro_setup() {
+	# Set default shell to bash.
+	run_proot_cmd usermod --shell /bin/bash root
+}
