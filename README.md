@@ -1,5 +1,5 @@
 # Termux PRoot x86
-Getting x86_64 and i386 linux working in Termux!! (via qemu-user-(x86_64, i386) and slow performance in every devices)
+Getting x86_64 and i386 linux working in Termux!! (via qemu-user-(x86_64, i386) and slow performance in every device)
 
 NOTE: SOME DISTROS CAN BE BROKEN IDK HOW TO FIX REPORT ISSUE AT [HERE](https://github.com/termux/proot-distro/issues) (ig) but if smth happens in my codes report issue here you are free to do
 ### Do this command (twice if apt cant find packages)
