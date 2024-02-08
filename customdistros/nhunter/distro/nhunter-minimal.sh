@@ -13,4 +13,8 @@ TARBALL_SHA256['x86_64']="06dcc3e8c152ae9c28059b8472d947bf514ac14cd259930c42d33b
 distro_setup() {
 	# Set default shell to bash.
 	run_proot_cmd usermod --shell /bin/bash root
+
+	# Configure en_US.UTF-8 locale.
+	sed -i -E 's/#[[:space:]]?(en_US.UTF-8[[:space:]]+UTF-8)/\1/g' ./etc/locale.gen
+	run_proot_cmd DEBIAN_FRONTEND=noninteractive dpkg-reconfigure locales
 }
