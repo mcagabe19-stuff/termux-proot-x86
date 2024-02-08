@@ -1,7 +1,7 @@
 # Termux PRoot x86
 Getting x86_64 and i686 PRoot Env working in Termux with proot-distro and qemu-user-(x86_64, i386)
 
-**NOTE: SLOW PERFORMANCE IN EVERY DEVICE**
+**NOTE: SLOW PERFORMANCE IN EVERY DEVICE** but you can use `taskset -a -c 4-7 (command)` to little improve performance (only if u have 8 cpu's)
 
 <details>
   <summary>The Commands</summary>
