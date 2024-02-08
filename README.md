@@ -7,18 +7,23 @@ Getting x86_64 and i386 PRoot Env working in Termux with proot-distro and qemu-u
   <summary>The Commands</summary>
 
 1. Updating Packages
+
 ```bash
 apt update && yes | apt upgrade
 ```
+
 2. (i386/x86) Installing
+
 ```bash
 apt install git qemu-user-i386 proot-distro -y && git clone https://github.com/mcagabe19-stuff/termux-proot-x86 && cd termux-proot-x86 && bash ./movedistrosi386.sh
 ```
-2. (amd64/x86_64) Installing
+3. (amd64/x86_64) Installing
+
 ```bash
 apt install git qemu-user-x86-64 proot-distro -y && git clone https://github.com/mcagabe19-stuff/termux-proot-x86 && cd termux-proot-x86 && bash ./movedistrosx86_64.sh
 ```
-3. Well done.
+
+4. Well done.
 
 </details>
 
@@ -26,4 +31,4 @@ apt install git qemu-user-x86-64 proot-distro -y && git clone https://github.com
 * openSUSE broken little bit
 
 ## TODO
-* Update distro's to latest
+* Update distro's to latest and test them
