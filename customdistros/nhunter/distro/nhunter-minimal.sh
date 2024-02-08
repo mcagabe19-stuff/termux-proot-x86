@@ -1,5 +1,5 @@
 DISTRO_NAME="Nethunter Minimal"
-DISTRO_COMMENT="Kali Linux Minimal"
+DISTRO_COMMENT="Rolling Release (2023.4)."
 
 TARBALL_URL['aarch64']="https://kali.download/nethunter-images/kali-2023.4/rootfs/kalifs-arm64-minimal.tar.xz"
 TARBALL_SHA256['aarch64']="fe5594de8c93918be9fb5da1302af9a5c2c57bfd23a296f6c3a4b8f62d4fbe69"
