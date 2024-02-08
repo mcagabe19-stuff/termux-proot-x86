@@ -1,1 +1,1 @@
-cp ./distro/* $PREFIX/etc/proot-distro && dos2unix $PREFIX/etc/proot-distro/*.sh > /dev/null && echo "Now run proot-distro list and for install do proot-distro install (distro)!"
+cp ./distro/* $PREFIX/etc/proot-distro && dos2unix $PREFIX/etc/proot-distro/nhunter*.sh > /dev/null && echo "Now run proot-distro list and for install do proot-distro install (distro)!"
