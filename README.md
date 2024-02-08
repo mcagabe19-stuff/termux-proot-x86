@@ -1,20 +1,29 @@
 # Termux PRoot x86
-Getting x86_64 and i386 linux working in Termux!! (via qemu-user-(x86_64, i386) and slow performance in every device)
+Getting x86_64 and i386 PRoot Env working in Termux with proot-distro and qemu-user-(x86_64, i386)
 
-NOTE: SOME DISTROS CAN BE BROKEN IDK HOW TO FIX REPORT ISSUE AT [HERE](https://github.com/termux/proot-distro/issues) (ig) but if smth happens in my codes report issue here you are free to do
-### Do this command (twice if apt cant find packages)
+**NOTE: SLOW PERFORMANCE IN EVERY DEVICE**
+
+<details>
+  <summary>The Commands</summary>
+
+1. Updating Packages
 ```bash
 apt update && yes | apt upgrade
 ```
-### for i386/x86
+2. (i386/x86) Installing
 ```bash
-apt install git qemu-user-i386 proot-distro -y && git clone https://github.com/mcagabe19/linux-x86_64-and-i386-in-termux && cd linux-x86_64-and-i386-in-termux && bash ./movedistrosi386.sh
+apt install git qemu-user-i386 proot-distro -y && git clone https://github.com/mcagabe19-stuff/termux-proot-x86 && cd termux-proot-x86 && bash ./movedistrosi386.sh
 ```
-### for amd64/x86_64
+2. (amd64/x86_64) Installing
 ```bash
-apt install git qemu-user-x86-64 proot-distro -y && git clone https://github.com/mcagabe19/linux-x86_64-and-i386-in-termux && cd linux-x86_64-and-i386-in-termux && bash ./movedistrosx86_64.sh
+apt install git qemu-user-x86-64 proot-distro -y && git clone https://github.com/mcagabe19-stuff/termux-proot-x86 && cd termux-proot-x86 && bash ./movedistrosx86_64.sh
 ```
+3. Well done.
+
+</details>
+
 ## BUGS
 * openSUSE broken little bit
+
 ## TODO
-nothing rn
+* Update distro's to latest
