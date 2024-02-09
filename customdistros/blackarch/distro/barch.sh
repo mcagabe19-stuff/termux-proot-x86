@@ -17,12 +17,13 @@ distro_setup() {
         sed -i -E 's/#[[:space:]]?(en_US.UTF-8[[:space:]]+UTF-8)/\1/g' ./etc/locale.gen
         run_proot_cmd locale-gen
 
+        # Fix untrusted signs (for BlackArch mostly)
+        sed -i '/SigLevel    = Required DatabaseOptional/c\SigLevel = Required DatabaseOptional TrustAll' /etc/pacman.conf
+
         # BlackArch installing progress
-        echo 
         run_proot_cmd curl -O https://blackarch.org/strap.sh
         run_proot_cmd chmod +x strap.sh
         run_proot_cmd ./strap.sh
-        # add pacman.conf patch later to here
         run_proot_cmd pacman -Syu
 }
 
