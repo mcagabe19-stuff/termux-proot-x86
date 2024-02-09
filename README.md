@@ -33,4 +33,4 @@ apt install git qemu-user-x86-64 proot-distro -y && git clone https://github.com
 * Zsh hates termux in Kali Linux
 
 ## TODO
-* Add blackarch x86_64 and parrot os if possible
+* Add parrot os if possible

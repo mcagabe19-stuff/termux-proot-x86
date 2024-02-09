@@ -19,7 +19,7 @@ distro_setup() {
         sed -i -E 's/#[[:space:]]?(en_US.UTF-8[[:space:]]+UTF-8)/\1/g' ./etc/locale.gen
         run_proot_cmd locale-gen
 
-        if [ "$DEVICE_CPU_ARCH" != "x86_64" ]; then
+        if [ "$DISTRO_ARCH" != "x86_64" ]; then
         # Fix untrusted signs (for BlackArch mostly)
         run_proot_cmd sed -i '/SigLevel    = Required DatabaseOptional/c\SigLevel = Required DatabaseOptional TrustAll' /etc/pacman.conf
 
