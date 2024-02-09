@@ -19,15 +19,14 @@ distro_setup() {
         sed -i -E 's/#[[:space:]]?(en_US.UTF-8[[:space:]]+UTF-8)/\1/g' ./etc/locale.gen
         run_proot_cmd locale-gen
 
-        if ["$(uname -m)" != "x86_64"]; then
+        if [ "$DEVICE_CPU_ARCH" != "x86_64" ]; then
         # Fix untrusted signs (for BlackArch mostly)
-        sed -i '/SigLevel    = Required DatabaseOptional/c\SigLevel = Required DatabaseOptional TrustAll' /etc/pacman.conf
+        run_proot_cmd sed -i '/SigLevel    = Required DatabaseOptional/c\SigLevel = Required DatabaseOptional TrustAll' /etc/pacman.conf
 
         # BlackArch installing progress
         run_proot_cmd curl -O https://blackarch.org/strap.sh
         run_proot_cmd chmod +x strap.sh
         run_proot_cmd ./strap.sh
-        run_proot_cmd pacman -Syu
         fi
 }
 
