@@ -1,7 +1,7 @@
 # Termux PRoot x86
 Getting x86_64 and i686 PRoot Env working in Termux with proot-distro and qemu-user-(x86_64, i386)
 
-**NOTE: SLOW PERFORMANCE IN EVERY DEVICE** but you can use `taskset -a -c 4-7 (command)` to little improve performance (only if u have 8 cpu's)
+**NOTE: SLOW PERFORMANCE IN EVERY DEVICE** but you can use `taskset -a -c 4-7 (command)` to little improve performance (only if u have 8 cores)
 
 <details>
   <summary>The Commands</summary>
@@ -28,8 +28,9 @@ apt install git qemu-user-x86-64 proot-distro -y && git clone https://github.com
 </details>
 
 ## BUGS
-* openSUSE broken little bit
 * openKylin doesn't start on some devices
+* Arch Linux, deepin and openSUSE ca-cert verifying issues
+* Zsh hates termux in Kali Linux
 
 ## TODO
-* Test distro's fully
+* Add blackarch or parrot os (if both possible)
