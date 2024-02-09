@@ -28,9 +28,7 @@ apt install git qemu-user-x86-64 proot-distro -y && git clone https://github.com
 </details>
 
 ## BUGS
-* openKylin doesn't start on some devices
-* Arch Linux, deepin and openSUSE ca-cert verifying issues
-* Zsh hates termux in Kali Linux
+* deepin and openSUSE ca-cert verifying issues
 
 ## TODO
 * Add parrot os if possible
