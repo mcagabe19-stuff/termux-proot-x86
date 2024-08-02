@@ -28,9 +28,3 @@ apt install git qemu-user-x86-64 blink proot-distro -y && git clone https://gith
 4. Well done.
 
 </details>
-
-## BUGS
-* deepin and openSUSE ca-cert verifying issues
-
-## TODO
-* Add parrot os if possible

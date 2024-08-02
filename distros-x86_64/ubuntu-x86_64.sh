@@ -1,9 +1,9 @@
-DISTRO_NAME="Ubuntu x86_64 (23.10)"
-DISTRO_COMMENT="Regular release (mantic)."
+DISTRO_NAME="Ubuntu x86_64 (24.04)"
+DISTRO_COMMENT="Regular release (noble)."
 DISTRO_ARCH="x86_64"
 
-TARBALL_URL['x86_64']="https://github.com/termux/proot-distro/releases/download/v4.8.0/ubuntu-mantic-x86_64-pd-v4.8.0.tar.xz"
-TARBALL_SHA256['x86_64']="b621afb46a182ce2aa06d06b2d3bc077bbdf08b3557b892d5ca74ff1c9afc206"
+TARBALL_URL['x86_64']="https://github.com/termux/proot-distro/releases/download/v4.11.0/ubuntu-noble-x86_64-pd-v4.11.0.tar.xz"
+TARBALL_SHA256['x86_64']="f024b1e17413737d8b385d22736d2e3eb2af9ba665fdbda1277bcca8f397e5a2"
 
 distro_setup() {
 	# Configure en_US.UTF-8 locale.

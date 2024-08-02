@@ -1,10 +1,10 @@
 DISTRO_NAME="Nethunter Nano"
-DISTRO_COMMENT="Rolling Release (2023.4). (AArch64 and ARM only.)"
+DISTRO_COMMENT="Rolling Release (2024.2). (AArch64 and ARM only.)"
 
-TARBALL_URL['aarch64']="https://kali.download/nethunter-images/kali-2023.4/rootfs/kalifs-arm64-nano.tar.xz"
-TARBALL_SHA256['aarch64']="44e70a16ddf3e94d5a27e209c8d643c556ec674d556fe8dc33fbd63bed220d71"
-TARBALL_URL['arm']="https://kali.download/nethunter-images/kali-2023.4/rootfs/kalifs-armhf-nano.tar.xz"
-TARBALL_SHA256['arm']="e9a32ff1d1baf50a5060a151821341c997abe4340bebcf8b18af31d1f41a3da3"
+TARBALL_URL['aarch64']="https://kali.download/nethunter-images/kali-2024.2/rootfs/kalifs-arm64-nano.tar.xz"
+TARBALL_SHA256['aarch64']="ad87f4c538a08a48667b95ead19f51dd109fdaa2d4ba753464b0a3018e3e4420"
+TARBALL_URL['arm']="https://kali.download/nethunter-images/kali-2024.2/rootfs/kalifs-armhf-nano.tar.xz"
+TARBALL_SHA256['arm']="acba1930a330cedaac8fea4f329d807b6d1aa3ae7b3b9930e94423724c904e23"
 
 distro_setup() {
 	# Set default shell to bash.
